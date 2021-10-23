@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>index.html</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row" style="background: dodgerblue;text-align: center;font-family: Verdana;color:white">
+        <h1><b>Michal Libov</b></h1>
+        <div class="d-none d-md-block">
+            <h6>resume</h6>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#" style="color: black">Home</a> <!--Home button-->
+            </li>
+        </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                       style="color: black">
+                        Who is submitting
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/michal-libov-2160851b6/" target="_blank">
+                        LinkedIn
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/michallibov" target="_blank">
+                        GitHub
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--modal pop up-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Personal Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Name: Michal Libov <br>
+                Email: michalli@edu.hac.ac.il <br>
+                ID: 208327452 <br>
+                (You must provide either ID, or moodle email, or both).
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--The resume itself-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+            <img src="images/resume_pic.jpg" alt="resume picture" width="150" height="200">
+            <h1><b>1. About me</b></h1>
+            <ul>
+                <li>Michal Libov</li>
+                <li>Born: May 5th, 1999</li>
+            </ul>
+            <p>
+                Automation Developer and UI with overall experience of 5 years,
+                a second Computer Science Degree, and knowledge
+                in designing, developing, and implementing applications.
+                I have been working with several top companies such as Microsoft and Google.
+                Now seeking for a challenging and renewable job as a software developer.
+            </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <h1><b>2. Skills</b></h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Domains</th>
+                        <th scope="col">Technology</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Front End Web Development</td>
+                        <td>HTML, CSS</td>
+                    </tr>
+                    <tr>
+                        <td>Operating Systems</td>
+                        <td>Linux, Windows</td>
+                    </tr>
+                    <tr>
+                        <td>Databases</td>
+                        <td>mySQL</td>
+                    </tr>
+                    <tr>
+                        <td>Programming Languages</td>
+                        <td>C, C++, Python</td>
+                    </tr>
+                    <tr>
+                        <td>Content Management Systems</td>
+                        <td>Wordpress, Drupal</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h1><b>3. Education</b></h1>
+            <p>Master of Science (M.Sc) in computer science. Graduated from Hadassah Academic College.</p>
+            <a href="https://www.hac.ac.il/" target="_blank">Hadassah Academic College</a><span>, 2022</span>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <h1><b>4. Work Experience</b></h1>
+            <h4>Automation Developer</h4>
+            <p>September 2016-August 201</p>
+            <p>Microsoft, Tel Aviv</p>
+            <h4>UI</h4>
+            <p>October 2019-June 2020</p>
+            <p>Google, Tel Aviv</p>
+            <h1><b>5. Languages</b></h1>
+                <ol>
+                    <li>Hebrew (native)</li>
+                    <li>English (fluent)</li>
+                    <li>Russian (very good)</li>
+                    <li>Arabic (fine)</li>
+                </ol>
+            <h1><b>6. Hobbies</b></h1>
+            <p>Knitting, Swimming, Reading, Learning new things and riding horses.</p>
+        </div>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</body>
+</html>
